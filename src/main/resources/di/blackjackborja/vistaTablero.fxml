@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="di.blackjackborja.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="966.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="di.blackjackborja.TableroController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="966.0" layoutX="340.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@img/fondo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="hudJuego" layoutX="43.0" layoutY="14.0">
+         <children>
+            <HBox fx:id="cartasJugador" alignment="BOTTOM_CENTER" layoutX="170.0" layoutY="416.0" prefHeight="200.0" prefWidth="540.0" spacing="10.0" />
+            <HBox fx:id="cartasIA" alignment="TOP_CENTER" disable="true" layoutX="170.0" prefHeight="200.0" prefWidth="540.0" spacing="10.0" />
+            <HBox fx:id="hBoxBaraja" layoutX="729.0" layoutY="208.0" prefHeight="200.0" prefWidth="150.0" />
+            <VBox fx:id="botonera" alignment="CENTER" layoutX="22.0" layoutY="416.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#pedirCartas" prefWidth="70.0" text="Pedir" />
+                  <Button mnemonicParsing="false" onAction="#plantarse" prefWidth="70.0" text="Plantarse" />
+               </children>
+            </VBox>
+            <Label layoutY="80.0" text="Ordenador" textFill="#ebebeb">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="750.0" layoutY="488.0" text="Jugador" textFill="#ebebeb">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="119.0" text="Valor:" textFill="#ebebeb">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPuntosIA" layoutX="92.0" layoutY="125.0" text="0" textFill="#ebebeb">
+               <font>
+                  <Font name="Consolas Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="774.0" layoutY="528.0" text="Valor:" textFill="#ebebeb">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPuntosJugador" layoutX="827.0" layoutY="534.0" text="0" textFill="#ebebeb">
+               <font>
+                  <Font name="Consolas Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <VBox fx:id="botonesMenu" alignment="CENTER" layoutX="248.0" layoutY="262.0" prefHeight="120.0" prefWidth="300.0" translateX="85.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <Button fx:id="init" mnemonicParsing="false" onAction="#reiniciar" prefHeight="25.0" prefWidth="48.0" text="Jugar" />
+                  <Button mnemonicParsing="false" onAction="#guardarPuntuacion" text="Guardar Puntuacion" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="Tu Racha: " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelRacha" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

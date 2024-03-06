@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>di.blackjackborja/di.blackjackborja.HelloApplication</mainClass>
+              <mainClass>di.blackjackborja/di.blackjackborja.BlackJackApp</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
