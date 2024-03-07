@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d9ecd93-fda2-413e-99f2-c4ec8b57d0c9" name="Changes" comment="Aplicacion finalizada con comentarios incluidos y clase Launcher">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="9d9ecd93-fda2-413e-99f2-c4ec8b57d0c9" name="Changes" comment="README.md generado.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -125,7 +127,7 @@
       <workItem from="1709736683892" duration="15325000" />
       <workItem from="1709813581500" duration="942000" />
       <workItem from="1709815462174" duration="31000" />
-      <workItem from="1709815916274" duration="309000" />
+      <workItem from="1709815916274" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar">
       <option name="closed" value="true" />
@@ -143,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709813096893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="README.md generado.">
+      <option name="closed" value="true" />
+      <created>1709816368494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709816368494</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar" />
     <MESSAGE value="Aplicacion finalizada con comentarios incluidos y clase Launcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicacion finalizada con comentarios incluidos y clase Launcher" />
+    <MESSAGE value="README.md generado." />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md generado." />
   </component>
 </project>
