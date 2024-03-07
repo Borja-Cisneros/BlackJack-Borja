@@ -9,24 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d9ecd93-fda2-413e-99f2-c4ec8b57d0c9" name="Changes" comment="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BlackJack_Borja_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/blackjackborja/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/img/derrota.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/img/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/img/ganador.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/librerias/Carta-1.0-SNAPSHOT.jar" afterDir="false" />
+    <list default="true" id="9d9ecd93-fda2-413e-99f2-c4ec8b57d0c9" name="Changes" comment="Aplicacion finalizada con comentarios incluidos y clase Launcher">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/di/blackjackborja/BlackJackApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/blackjackborja/BlackJackApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/di/blackjackborja/TableroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/blackjackborja/TableroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/vistaTablero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/di/blackjackborja/vistaTablero.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +60,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.34712642",
@@ -90,7 +76,20 @@
       <recent name="C:\Users\borja\OneDrive\Escritorio\BlackJack-Borja\src\main\resources\di\blackjackborja\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BlackJackApp">
+    <configuration name="BlackJackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="di.blackjackborja.BlackJackApp" />
+      <module name="BlackJack-Borja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="di.blackjackborja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="di.blackjackborja.Launcher" />
       <module name="BlackJack-Borja" />
@@ -106,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlackJackApp" />
         <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
@@ -122,7 +122,10 @@
       <workItem from="1709280391042" duration="12377000" />
       <workItem from="1709637078211" duration="1554000" />
       <workItem from="1709724974866" duration="25000" />
-      <workItem from="1709736683892" duration="15175000" />
+      <workItem from="1709736683892" duration="15325000" />
+      <workItem from="1709813581500" duration="942000" />
+      <workItem from="1709815462174" duration="31000" />
+      <workItem from="1709815916274" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar">
       <option name="closed" value="true" />
@@ -132,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709741888002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aplicacion finalizada con comentarios incluidos y clase Launcher">
+      <option name="closed" value="true" />
+      <created>1709813096893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709813096893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit baraja creada + metodos adicionales para control de victorias y derrotas + botones de menu sin acabar" />
+    <MESSAGE value="Aplicacion finalizada con comentarios incluidos y clase Launcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicacion finalizada con comentarios incluidos y clase Launcher" />
   </component>
 </project>
