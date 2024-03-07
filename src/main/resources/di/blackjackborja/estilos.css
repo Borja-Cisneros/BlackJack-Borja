@@ -1,0 +1,106 @@
+/* Establece el fondo de los botones de la tabla como transparente y cambia el cursor a una mano cuando pasa sobre ellos */
+.table-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* Hace que el fondo de los botones de la tabla siga siendo transparente cuando se pasa el cursor sobre ellos */
+.table-button:hover {
+    -fx-background-color: transparent;
+}
+
+/* Establece el color del borde y el fondo de la tabla como transparentes */
+.table-view {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+/* Hace que el fondo de la cabecera de la columna, el fondo del relleno de la cabecera de la columna y la esquina de la tabla sean transparentes */
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+/* Hace que el fondo y el borde de la cabecera de la columna sean transparentes */
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Establece el peso de la fuente en negrita y la alineación del texto de la cabecera de la columna */
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+}
+
+/* Hace que el fondo de las celdas de datos sea transparente y define los márgenes de los bordes */
+.table-row-cell:filled {
+    -fx-background-color: transparent;
+    -fx-border-insets: 0, 1;
+}
+
+/* Hace que el fondo de las celdas vacías sea transparente */
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+/* Hace que el fondo de las celdas de datos sea transparente cuando el cursor pasa sobre ellas */
+.table-row-cell:filled:hover {
+    -fx-background-color: transparent;
+}
+
+/* Hace que el fondo de las celdas de datos seleccionadas sea transparente cuando el cursor pasa sobre ellas */
+.table-row-cell:filled:selected:hover {
+    -fx-background-color: transparent;
+}
+
+/* Establece el fondo de las celdas de datos seleccionadas como transparente */
+.table-row-cell:filled:selected {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+}
+
+/* Establece el color del texto de las celdas de datos seleccionadas como amarillo */
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: yellow;
+}
+
+/* Establece el tamaño de la celda y la alineación del contenido de las celdas */
+.table-view .cell:filled {
+    -fx-cell-size: 30;
+    -fx-alignment: center-left;
+}
+
+/* Establece el color de fondo del marcador de las casillas de verificación seleccionadas como transparente */
+.check-box-table-cell > .check-box:selected .box .mark {
+    -fx-background-color: transparent;
+}
+
+/* Establece el color de fondo de las casillas de verificación seleccionadas como transparente */
+.check-box-table-cell > .check-box:selected .box {
+    -fx-background-color: transparent;
+}
+
+/* Establece el color del texto de los marcadores de posición de la tabla como amarillo y el relleno */
+.table-view .placeholder .label {
+    -fx-text-fill: yellow;
+    -fx-padding: 20px;
+}
+
+/* Hace invisible la barra de desplazamiento horizontal */
+.table-view .scroll-bar:horizontal {
+    -fx-opacity: 0; /* Hace la barra de desplazamiento invisible */
+    -fx-pref-width: 0; /* Establece el ancho de la barra de desplazamiento en cero */
+}
+
+/* Establece el color del texto de las celdas de registros a amarillo */
+.table-row-cell .table-cell {
+    -fx-text-fill: yellow;
+}
+
+/* Hace transparente la línea del medio de la tabla */
+.table-row-cell:odd {
+    -fx-background-color: transparent;
+}

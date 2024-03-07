@@ -12,6 +12,7 @@ public class BlackJackApp extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BlackJackApp.class.getResource("vistaTablero.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 966, 644);
+        scene.getStylesheets().add(getClass().getResource("estilos.css").toExternalForm());
         stage.setTitle("BlackJack!");
         stage.setScene(scene);
         stage.show();
